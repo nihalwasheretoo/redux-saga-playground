@@ -27,7 +27,7 @@ const mapStateToProps = (state) => ({
 
 const mapDispatchToProps = dispatch => {
   return{
-    handleTest: () => dispatch({type: 'TEST_SAGA', payload: { test: "HELLO REDUX SAGA"} })
+    handleTest: () => dispatch({type: 'TEST_SAGA', test: "HELLO REDUX SAGA"})
   } 
 };
 

@@ -9,7 +9,7 @@ export default function(state = initialState, action){
 		 case TEST_SAGA:
 		 return{
 		 	...state,		 	
-		 	test: action.payload
+		 	test: action.test
 		 }	
 
 		default:
